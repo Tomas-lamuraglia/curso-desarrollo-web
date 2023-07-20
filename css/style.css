@@ -1,0 +1,48 @@
+
+  
+  
+  /*--menu-de-navegacion*/
+ 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid gray
+}
+header img {
+  width: 9rem;
+  margin-left: 30px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul li {margin: 10px;
+}
+header nav ul li a{
+  text-decoration: none;
+  color: white;
+  }
+  header nav ul li a:hover {
+    color: rgb(17, 0, 255);
+  }
+  /*body-central*/
+  body {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: hsl(0, 15%, 90%);
+    background-color: #050401;
+  }
+ body header div img {text-align: center;
+ }
+
+  body header h1 {
+    text-align: center;
+}
+/*footer*/
+footer div {text-align: center;
+}
+footer div a {color: rgb(250, 249, 248);
+}
+footer div a {text-align-last: left;
+}
