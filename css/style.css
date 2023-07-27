@@ -26,12 +26,17 @@ header nav ul li a{
   header nav ul li a:hover {
     color: rgb(17, 0, 255);
   }
+  /*SECTION HOME*/
+  body SEction img{
+    height: 500px;
+  }
   /*body-central*/
   body {
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
     color: hsl(0, 15%, 90%);
     background-color: #050401;
+    height: 400px;
   }
  body header div img {text-align: center;
  }
@@ -40,9 +45,24 @@ header nav ul li a{
     text-align: center;
 }
 /*footer*/
+
 footer div {text-align: center;
 }
 footer div a {color: rgb(250, 249, 248);
 }
 footer div a {text-align-last: left;
+}
+/*body bio*/
+body section{
+  background-image: url(../images/trance.room-33.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+body section .container-flex .container-Biografia{
+color: white;
+font-size: 2rem;
+}
+body section ul li{
+  list-style-type: none;
 }
