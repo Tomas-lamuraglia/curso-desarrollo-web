@@ -1,0 +1,27 @@
+
+.nav-bar-personal{
+    background-color:#f6ecc8 !important;
+    border-bottom: 2px solid black;
+    font-family: BrandBunR;
+    text-align: center;
+    
+}
+
+.nav-bar-personal .container-fluid .navbar-nav .nav-item .nav-link {
+    color:black;
+    display: flex;
+    justify-content: center;
+
+}
+.navbar-nav a:hover{
+    opacity: 1 !important;
+color: #8DD916 !important;
+}
+/*footer*/
+
+footer div {text-align: center;
+}
+footer div a {color: rgb(250, 249, 248);
+}
+footer div a {text-align-last: left;
+}
