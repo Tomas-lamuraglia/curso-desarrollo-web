@@ -1,63 +1,46 @@
-
-  
-  
-  /*--menu-de-navegacion*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
  
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border-bottom: 1px solid gray
 }
-header img {
-  width: 9rem;
-  margin-left: 30px;
-}
-header nav ul {
-  list-style: none;
-  display: flex;
-}
-header nav ul li {margin: 10px;
-}
-header nav ul li a{
-  text-decoration: none;
-  color: white;
-  }
-  header nav ul li a:hover {
-    color: rgb(17, 0, 255);
-  }
-  /*SECTION HOME*/
-  body SEction img{
-    height: 500px;
-  }
+ 
   /*body-central*/
-  body {
+section {
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
     color: hsl(0, 15%, 90%);
     background-color: #050401;
     height: 400px;
   }
- body header div img {text-align: center;
+ section .container-flex {text-align: center;
  }
-
-  body header h1 {
+section div ul li h4{
+text-align: center;
+}
+  body h1 {
     text-align: center;
 }
 /*footer*/
+footer {
+  display:grid;
 
+}
 footer div {text-align: center;
+
 }
 footer div a {color: rgb(250, 249, 248);
 }
 footer div a {text-align-last: left;
 }
 /*body bio*/
-body section{
+.container-flex{
   background-image: url(../images/trance.room-33.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
+  width: 357px;
+  height: 614px;
+
 }
 body section .container-flex .container-Biografia{
 color: white;
