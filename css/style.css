@@ -3,26 +3,24 @@
 footer {
   background-color: rgb(73, 72, 72);
 }
-
-.footer-copyrigth {
-  color: white !important;
-}
-
 footer div {
   text-align: center;
 }
-
 footer div a {
   color: rgb(250, 249, 248);
   text-decoration: none;
-}
-
-footer div a {
   text-align-last: left;
 }
-
-.navbar-nav {
+footer .navbar-nav {
   justify-content: center;
+}
+footer .footer-copyrigth {
+  color: white !important;
+}
+
+.container-imagen img {
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
