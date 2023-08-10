@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+ 
+  /*body-central*/
+section {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: hsl(0, 15%, 90%);
+    background-color: #050401;
+    height: 400px;
+  }
+ section .container-flex {text-align: center;
+ }
+section div ul li h4{
+text-align: center;
+}
+  body h1 {
+    text-align: center;
+}
+/*footer*/
+footer {
+  display:grid;
+
+}
+footer div {text-align: center;
+
+}
+footer div a {color: rgb(250, 249, 248);
+}
+footer div a {text-align-last: left;
+}
+/*body bio*/
+.container-flex{
+  background-image: url(../images/trance.room-33.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 357px;
+  height: 614px;
+
+}
+body section .container-flex .container-Biografia{
+color: white;
+font-size: 2rem;
+}
+body section ul li{
+  list-style-type: none;
+}

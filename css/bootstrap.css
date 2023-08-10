@@ -33,16 +33,3 @@ body section div div ul li {
     background-size: cover;
     background-repeat: no-repeat;
 }
-/*footer*/
-footer {
-    background-color: rgb(73, 72, 72);
-}
-footer div {text-align: center;
-}
-footer div a {color: rgb(250, 249, 248);
-    text-decoration: none;
-}
-footer div a {text-align-last: left;
-}
-.navbar-nav {justify-content: center;
-}
